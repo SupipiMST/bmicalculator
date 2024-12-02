@@ -1,0 +1,128 @@
+@import url('https://fonts.google.com/share?selection.family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: fixed;
+    background-color: blueviolet;
+}
+.box{
+    width: 500px;
+    height: 750px;
+    background: wheat;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 2px 2px 20px 5px rgba(0,0,0,5);
+}
+h1{
+    color: brown;
+    font-size: 40px;
+    padding: 5%;
+}
+.content{
+    padding: 0 30px;
+}
+.input{
+    background: #fff;
+    box-shadow: 0px 0px 95px -30px royalblue;
+    border-radius: 12px;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+.input label{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 20px;
+}
+.input input{
+    outline: none;
+    border: 1%;
+    border-bottom: 1px solid #4f7da1;
+    width: 50%;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.inputH{
+    background-color: #fff;
+    box-shadow: 0px 0px 95px -30px royalblue;
+    border-radius: 12px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.inputW{
+    background-color: #fff;
+    box-shadow: 0px 0px 95px -30px royalblue;
+    border-radius: 12px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+button.calculate{
+    cursor: pointer;
+    color: #fff;
+    background: purple;
+    font-size: 20px;
+    border-radius: 7px;
+    padding: 12px 0;
+    width: 100%;
+    outline: auto;
+    border: none;
+    transition: all 0.5s;
+}
+button.calculate:hover{
+    background: red;
+}
+.result{
+    padding: 10px 20px;
+}
+.result p{
+    font-weight: 600;
+    font-size: 22px;
+    color: black;
+    margin-bottom: 15px;
+}
+.result #result{
+    color: blue;
+    font-weight: 800;
+    font-size: 22px;
+}
+#comment{
+    color: #4f7da1;
+    font-weight: 800;
+}
+.comment{
+    display: none;
+    border: dashed 1px;
+    border-radius: 7px;
+    padding: 5px;
+}
+.gender{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background: #fff;
+    box-shadow: 0px 0px 95px -30px rgba(0,0,0,15);
+    border-radius: 12px;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+.gender .container{
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-top: 7px;
+    cursor: pointer;
+}
